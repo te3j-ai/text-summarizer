@@ -57,7 +57,7 @@ const Summarizer = (props: Props) => {
         <div className="w-full">
           <div className="px-10">
             <Link to="/">
-              <h1 className="font-semibold text-3xl">Te3j.ai</h1>
+              <h1 className="font-semibold text-3xl">Te3j.△i</h1>
             </Link>
           </div>
 
