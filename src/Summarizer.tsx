@@ -4,6 +4,7 @@ import UserIcon from "@/assets/user.svg";
 import Loader from "@/assets/loading-white.svg";
 import "./index.css";
 import useLocalStorage from "use-local-storage";
+import { Link } from "react-router-dom";
 
 type Props = {};
 
@@ -55,7 +56,9 @@ const Summarizer = (props: Props) => {
       <div className=" py-5 w-4/5 ml-auto min-h-screen">
         <div className="w-full">
           <div className="px-10">
-            <h1 className="font-semibold text-3xl">Te3j.ai</h1>
+            <Link to="/">
+              <h1 className="font-semibold text-3xl">Te3j.ai</h1>
+            </Link>
           </div>
 
           <div className="">
