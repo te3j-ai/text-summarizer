@@ -64,7 +64,7 @@ const Summarizer = (props: Props) => {
                 <div className="flex gap-10 items-start my-10">
                   <img src={UserIcon} alt="user icon" className="my-1" />
 
-                  <p className="text-base">{input}</p>
+                  <p className="text-base font-normal">{input}</p>
                 </div>
               </div>
             )}
